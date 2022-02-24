@@ -16,9 +16,10 @@ type PusherObj struct {
 
 func main() {
 	var PusherConf PusherObj
+	//deleted AppId
 	PusherConf.AppId = "1352452"
-	PusherConf.Key = "af61646bc041a9c203ec"
-	PusherConf.Secret = "83d11e516246417a5ed4"
+	PusherConf.Key = "#"
+	PusherConf.Secret = "#"
 	PusherConf.Cluster = "ap1"
 	PusherConf.Secure = true
 
